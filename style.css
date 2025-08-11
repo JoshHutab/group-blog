@@ -1,0 +1,71 @@
+/* === GENERAL STYLES === */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+
+  /* 🖼️ Set your background image below */
+  background-image: url('kukai-art-xS_lI4mtyzs-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center; /* Centers the whole container */
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Container for logo + title */
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Logo image */
+.logo img {
+  height: 100px;
+}
+
+/* Centered title */
+header h1 {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
+
+
+/* === PEOPLE SECTION === */
+.people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.person {
+  text-decoration: none;
+  background-color: #ffffffcc;
+  padding: 1rem 2.5rem;
+  border-radius: 20px; /* ⬅️ More rounded corners */
+  font-weight: 500;
+  font-size: 1.2rem;   /* ⬅️ Larger text */
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.person:hover {
+  background-color: #333;
+  color: white;
+  transform: scale(1.05);
+}
+
